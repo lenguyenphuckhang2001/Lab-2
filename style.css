@@ -1,0 +1,86 @@
+body
+{
+    background: url('image.jpg');
+    background-size: cover;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+section
+{
+    text-align: center;
+}
+article
+{
+    background-color: #262626;
+    display: inline-block;
+    width: 23%;
+    margin: 80px 20px 0 20px;
+    border: 5px solid #424242;
+    color: #a1a1a1;
+}
+article h1
+{
+    font-size: 1.5em;
+    color: #fff;
+}
+article .price
+{
+    font-size: 3em;
+    font-weight: bold;
+    color: #27dcc4;
+}
+article ul{
+    padding: 0;
+}
+article button{
+    background-color: #27dcc4;
+    color: #ffffff;
+    padding: 15px 30px;
+    margin: 10px 0;
+    font-size: 0.9em;
+    cursor: pointer;
+    border: none;
+}
+article ul li{
+    list-style-type: none ;
+    padding: 5px 0;
+}
+article button:hover{
+    background-color:#acacac ;
+}
+nav ul{
+    background: #ffffff;
+    list-style-type: none;
+    text-align: center;
+}
+nav li{
+    color: #f1f1f1;
+    display: inline-block;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+  }
+nav a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    font-weight: bold;
+  }
+nav a:hover{
+    background: #cccccc;
+    color: #333;
+  }
+.sub-menu{
+
+position: absolute;
+}
+nav li{
+    position: relative;
+}
+nav li:hover .sub-menu{
+    display: block;
+}
+.sub-menu li{
+    margin-left: 0 !important;
+}
